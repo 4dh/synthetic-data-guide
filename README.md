@@ -84,7 +84,6 @@ print(fake.address())
 ### 4. Other Notable Tools
 
 - [Synthcity](https://github.com/vanderschaarlab/synthcity): Collection of methods including GANs and VAEs
-- [nbsynthetic](https://github.com/nubank/nbsynthetic): Focused on small to medium datasets with mixed data types
 - [TGAN](https://github.com/DAI-Lab/TGAN): Generative adversarial training for tabular data
 - [Mimesis](https://github.com/lk-geimfari/mimesis): Similar to Faker but with more context-aware data types
 

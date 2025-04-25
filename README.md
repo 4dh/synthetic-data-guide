@@ -1,5 +1,7 @@
 # Guide to Synthetic Data Creation for Data Science Projects (with a medical domain focus)
 
+![Banner](./assets/synth_data_repo_img.png)
+
 ## Introduction
 
 Synthetic data provides realistic artificial data that mimics the statistical properties of real data without exposing sensitive information. This guide covers practical tools, repositories, and methodologies for creating and utilizing synthetic data, with special focus on medical domain applications.

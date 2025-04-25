@@ -123,13 +123,12 @@ Machine learning-based synthetic data generation methods specifically for health
 
 ### NIH-Related Resources
 
-- [Synthetic Health Data Challenge](https://www.healthit.gov/topic/scientific-initiatives/pcor/synthetic-health-data-generation-accelerate-patient-centered-outcomes)
 - [National COVID Cohort Collaborative (N3C)](https://covid.cd2h.org/enclave): Piloted MDClone's synthetic data
 
 ### VA Resources
 
 - [VA Open Data Portal - Synthetic Data](https://www.data.va.gov/stories/s/How-to-Access-Synthetic-Data-in-the-VA/rssm-v4rt/)
-- [VA COVID-19 Synthetic Dataset](https://www.data.va.gov/dataset/Synthetic-Cohort-for-VHA-Innovation-Ecosystem-and-/f6q6-hh5x/data): 147,451 synthetic patients
+- [VA COVID-19 Synthetic Dataset - generated via SYNTHEA ](https://www.data.va.gov/dataset/Synthetic-Cohort-for-VHA-Innovation-Ecosystem-and-/f6q6-hh5x/about_data): >100k synthetic patients
 
 ### Other Public Resources
 

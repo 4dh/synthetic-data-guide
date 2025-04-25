@@ -76,16 +76,12 @@ print(fake.email())
 print(fake.address())
 ```
 
-### 4. [Gretel Synthetics](https://github.com/gretelai/gretel-synthetics)
-
-An open-source tool from commercial vendor Gretel.ai for synthetic data generation.
-
 **Key Features:**
 - Privacy-preserving algorithms
 - Natural language generation capabilities
 - API access for integration into pipelines
 
-### 5. Other Notable Tools
+### 4. Other Notable Tools
 
 - [Synthcity](https://github.com/vanderschaarlab/synthcity): Collection of methods including GANs and VAEs
 - [nbsynthetic](https://github.com/nubank/nbsynthetic): Focused on small to medium datasets with mixed data types
@@ -93,6 +89,28 @@ An open-source tool from commercial vendor Gretel.ai for synthetic data generati
 - [Mimesis](https://github.com/lk-geimfari/mimesis): Similar to Faker but with more context-aware data types
 
 ---
+
+## Generative AI for Synthetic Data (Open-Source Focus)
+
+Open-source GenAI tools enable synthetic data generation using prompt-based or fine-tuned models.
+
+**Key Tools:**
+- [Huggingface Transformers](https://github.com/huggingface/transformers)
+- [Alpaca-LoRA](https://github.com/tloen/alpaca-lora)
+- [Stable Diffusion](https://github.com/CompVis/stable-diffusion) (for images)
+
+**Example: Prompt-Based Generation:**
+```python
+from transformers import pipeline
+
+generator = pipeline("text-generation", model="gpt2")
+prompt = "Generate a synthetic clinical note for a 70-year-old patient with chronic kidney disease."
+synth_note = generator(prompt, max_length=150)
+print(synth_note)
+```
+
+> Use caution: validate outputs for realism, avoid hallucinations, and maintain domain integrity.
+
 
 ## Medical-Specific Synthetic Data Tools
 

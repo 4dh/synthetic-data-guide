@@ -109,18 +109,13 @@ cd synthea
 ./run_synthea -p 100 Massachusetts
 ```
 
-### 2. [MDClone](https://www.mdclone.com/synthetic-data)
 
-MDClone is a commercial synthetic data platform designed specifically for healthcare.
-
-**Key Features:**
-- Maintains statistical relationships from source data
-- Self-service data exploration platform
-- Used by VA and other major healthcare systems
 
 ### 3. SynSys and iPDG
 
 Machine learning-based synthetic data generation methods specifically for healthcare applications.
+
+-[NIH Publication for SnySny](https://pubmed.ncbi.nlm.nih.gov/30857130/)
 
 ---
 
